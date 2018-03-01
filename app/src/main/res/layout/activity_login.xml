@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg"
-    tools:mContext="com.technoxol.mandepos.LoginActivity">
+    tools:mContext="web2design.epos.LoginActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -28,12 +28,21 @@
                 android:gravity="center"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:src="@drawable/skafs_logo"/>
+                <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_centerHorizontal="true"-->
+                    <!--android:src="@mipmap/ic_launcher_foreground"/>-->
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mp"
+                    android:textColor="@color/cyan"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginTop="20dp"/>
                 <EditText
                     android:id="@+id/emailET"
                     android:layout_width="200dp"
